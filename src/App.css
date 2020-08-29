@@ -1,38 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.test{
+  margin-left: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.abi{
+  margin-left: 12%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link{
+  margin: 0 20px;
+}
+.contactUsButton{
+  background: linear-gradient(to right, #48B43D 0%, #3E964E 100%) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.mainCarousel{
+  margin-top:5%;
+  background-image: url("./images/home_dental.jpg");
+}
+.carouselText{
+ padding-top: 5%;
+ padding-left: 10%;
+ text-align: start;
+
+}
+.carouselHero{
+  font-family: "Nunito Sans";
+  font-size: 60px;
+  line-height: 60px;
+  color:#568701;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.greenButton{
+  font-family: "Nunito Sans";
+  background-color:#568701 !important;
+}
+.blackButton{
+  font-family: "Nunito Sans";
+  background-color: black !important;
+}
+.carouselButtons{
+  margin-top: 17%;
 }
