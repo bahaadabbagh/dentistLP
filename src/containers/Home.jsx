@@ -4,7 +4,8 @@ import HomeCarousel from "../components/HomeCarousel";
 import CallToAction from "../components/callToAction";
 import SellingPoints from '../components/sellingPoints';
 import Services from '../components/services';
-import Testimonials from "../components/Testimonials"
+import Testimonials from "../components/Testimonials";
+import Form from "../components/Form";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
            <SellingPoints />
            <Services />
            <Testimonials />
+           <Form />
         </div>
     )
 }

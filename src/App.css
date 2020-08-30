@@ -88,3 +88,38 @@
   float: right;
   padding-left: 5%;
 }
+.map{
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.homeForm{
+  z-index: 5;
+  /* margin-left: 60% ; */
+}
+.innerForm{
+  background: linear-gradient(to bottom right, #48B43D 0%, #3E964E 100%) !important;
+  color: #fff;
+  text-align: start;
+  padding: 0% 0% 8.5% 3%;
+}
+.formInput{
+  width: 95%;
+  border-radius: 4px;
+  height: 50px;
+  margin-bottom: 2%;
+  background-color: #7ABF7B;
+}
+#messageInput{
+  height:10rem;
+}
+::placeholder{
+  color: #fff;
+}
+.formButton{
+  width:95%;
+  background-color: #fff;
+  color:#568701;
+  height: 50px;
+  border-radius: 4px;
+}
