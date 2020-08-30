@@ -69,3 +69,22 @@
 .servicesImg{
   margin: 5% 0;
 }
+.testimonialButton{
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #c9c9ca;
+  color: #fff;
+  font-size: 18px;
+  line-height: 45px;
+  margin: 0 0.5%;
+}
+.testimonialButton:hover{
+  background-color: #568701;
+}
+
+.buttonCol{
+  float: right;
+  padding-left: 5%;
+}
