@@ -6,6 +6,7 @@ import SellingPoints from '../components/sellingPoints';
 import Services from '../components/services';
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form";
+import Footer from "../components/footer"
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
            <Services />
            <Testimonials />
            <Form />
+           <Footer />
         </div>
     )
 }

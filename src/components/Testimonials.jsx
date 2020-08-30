@@ -11,12 +11,13 @@ export default function Testimonials() {
            </Col>
            <Col md="4"></Col>
            <Col md="4" className="buttonCol"> 
-           <button className="testimonialButton">&lt;</button>
-           <button className="testimonialButton">&gt; </button>
+           
+           <button className="testimonialButton"><i class="fas fa-angle-left"></i></button>
+           <button className="testimonialButton"><i class="fas fa-angle-right"></i></button>
            </Col>
            </Row>
            <Row>
-               <img src={testimonialsImg} alt="testimonial image" width="100%" />
+               <img src={testimonialsImg} alt="testimonial" width="100%" />
            </Row>
         </div>
     )
