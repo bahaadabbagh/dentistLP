@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import HomeCarousel from "../components/HomeCarousel";
 import CallToAction from "../components/callToAction";
 import SellingPoints from '../components/sellingPoints';
+import Services from '../components/services';
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
            <HomeCarousel /> 
            <CallToAction />
            <SellingPoints />
+           <Services />
         </div>
     )
 }
