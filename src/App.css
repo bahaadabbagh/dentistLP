@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
   text-align: center;
 }
@@ -49,4 +50,19 @@
 }
 .callToAction{
   padding: 0 4%;
+}
+.sellingPointsCards{
+  outline-style: ridge;
+  outline-width: 0.25px;
+  outline-color:  #48B43D;
+  width: 30%;
+}
+.sellingPointsText{
+  font-family: "Roboto";
+  text-align: start;
+  margin-left: 5%;
+  font-weight: 800 !important;
+}
+.sellingPoints{
+  margin: 0 5%;
 }

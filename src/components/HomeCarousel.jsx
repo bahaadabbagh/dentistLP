@@ -18,7 +18,7 @@ export default function homeCarousel() {
             </Row>
           </Col>
           <Col className="carouselImg" md="6">
-            <img src={firstSlide} alt="First slide"/>
+            <img src={firstSlide} alt="First slide" width="100%"/>
           </Col>
         </Row>
       </Carousel.Item>
@@ -32,8 +32,8 @@ export default function homeCarousel() {
             <Button className="blackButton"> <strong>Get in touch</strong></Button>
             </Row>
           </Col>
-          <Col className="carouselImg" md="5" width="100%">
-            <img src={secondSlide} alt="Third slide" />
+          <Col className="carouselImg" md="5">
+            <img src={secondSlide} alt="second slide" width="100%" />
           </Col>
         </Row>
       </Carousel.Item>
@@ -48,7 +48,7 @@ export default function homeCarousel() {
             </Row>
           </Col>
           <Col>
-            <img src={thirdSlide} alt="Third slide" />
+            <img src={thirdSlide} alt="Third slide" width="100%"/>
           </Col>
         </Row>
       </Carousel.Item>
