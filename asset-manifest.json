@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dentistLP/static/css/main.2c21e93b.chunk.css",
+    "main.css": "/dentistLP/static/css/main.1f4d8f86.chunk.css",
     "main.js": "/dentistLP/static/js/main.886ffe59.chunk.js",
     "main.js.map": "/dentistLP/static/js/main.886ffe59.chunk.js.map",
     "runtime-main.js": "/dentistLP/static/js/runtime-main.4a900a9f.js",
@@ -9,10 +9,10 @@
     "static/js/2.88e8b000.chunk.js": "/dentistLP/static/js/2.88e8b000.chunk.js",
     "static/js/2.88e8b000.chunk.js.map": "/dentistLP/static/js/2.88e8b000.chunk.js.map",
     "index.html": "/dentistLP/index.html",
-    "precache-manifest.51edf87b16e0ec74ceb3b2b9d0c373da.js": "/dentistLP/precache-manifest.51edf87b16e0ec74ceb3b2b9d0c373da.js",
+    "precache-manifest.770fff65882eb019760a4f8da47fb7dd.js": "/dentistLP/precache-manifest.770fff65882eb019760a4f8da47fb7dd.js",
     "service-worker.js": "/dentistLP/service-worker.js",
     "static/css/2.964804ba.chunk.css.map": "/dentistLP/static/css/2.964804ba.chunk.css.map",
-    "static/css/main.2c21e93b.chunk.css.map": "/dentistLP/static/css/main.2c21e93b.chunk.css.map",
+    "static/css/main.1f4d8f86.chunk.css.map": "/dentistLP/static/css/main.1f4d8f86.chunk.css.map",
     "static/js/2.88e8b000.chunk.js.LICENSE.txt": "/dentistLP/static/js/2.88e8b000.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/dentistLP/static/media/arrow_right.8ef6a08c.svg",
     "static/media/bookcall.jpg": "/dentistLP/static/media/bookcall.2fb64f8a.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.4a900a9f.js",
     "static/css/2.964804ba.chunk.css",
     "static/js/2.88e8b000.chunk.js",
-    "static/css/main.2c21e93b.chunk.css",
+    "static/css/main.1f4d8f86.chunk.css",
     "static/js/main.886ffe59.chunk.js"
   ]
 }

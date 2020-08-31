@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dentistLP/precache-manifest.51edf87b16e0ec74ceb3b2b9d0c373da.js"
+  "/dentistLP/precache-manifest.770fff65882eb019760a4f8da47fb7dd.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c01fbcb36b75514996d52fa6f632b499",
+    "revision": "970713049ba57196e9921308c39b712c",
     "url": "/dentistLP/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dentistLP/static/css/2.964804ba.chunk.css"
   },
   {
-    "revision": "fe0b15ac13eac6902a51",
-    "url": "/dentistLP/static/css/main.2c21e93b.chunk.css"
+    "revision": "170f1fbaebf3cbd36f7a",
+    "url": "/dentistLP/static/css/main.1f4d8f86.chunk.css"
   },
   {
     "revision": "ecd61eecde1fdc6ad490",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dentistLP/static/js/2.88e8b000.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe0b15ac13eac6902a51",
+    "revision": "170f1fbaebf3cbd36f7a",
     "url": "/dentistLP/static/js/main.886ffe59.chunk.js"
   },
   {
