@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
   text-align: center;
 }
 *{
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", sans-serif;
+}
+.allNavbar{
+  position: fixed;
+  top:0;
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+  font-weight: 800;
 }
 .test{
   margin-left: 10%;
@@ -26,14 +35,17 @@
   background-image: url("./images/home_dental.jpg");
 }
 .carouselText{
+ z-index: 1;
  padding-top: 5%;
  padding-left: 10%;
  text-align: start;
-
+}
+.carouselImg{
+  z-index: 0;
 }
 .carouselHero{
   font-family: "Nunito Sans";
-  font-size: 60px;
+  font-size: 50px;
   line-height: 60px;
   color:#568701;
   font-weight: 900;
@@ -42,31 +54,42 @@
 .greenButton{
   font-family: "Nunito Sans";
   background-color:#568701 !important;
+  font-size: larger;
 }
 .blackButton{
   font-family: "Nunito Sans";
   background-color: black !important;
+  font-size: larger;
 }
 .carouselButtons{
-  margin-top: 17%;
+  margin-top: 25%;
 }
 .callToAction{
   padding: 0 4%;
+  width: 100%;
 }
 .sellingPointsCards{
-  outline-style: ridge;
-  outline-width: 0.25px;
-  outline-color:  #48B43D;
+  border-style: ridge;
+  border-width: 0.25px;
+  border-color:  #48B43D;
   width: 30%;
+}
+.sellingPointsCards:hover{
+  border-top-width: 5px;
+  border-color:#1a800f ;
+  outline-width: 0px;
 }
 .sellingPointsText{
   font-family: "Roboto";
   text-align: start;
-  margin-left: 5%;
+  padding-left: 5%;
+  margin-bottom: 10%;
+}
+.sellingPointsHero{
   font-weight: 800 !important;
 }
 .sellingPoints{
-  margin: 0 5%;
+  padding: 0 5%;
 }
 .servicesImg{
   margin: 5% 0;
@@ -85,10 +108,18 @@
 .testimonialButton:hover{
   background-color: #568701;
 }
+.testimonials{
+  width: 98%;
+}
+.testimonialsHero{
+  padding-left: 15%;
+  font-weight: 900;
+}
 
 .buttonCol{
   float: right;
   padding-left: 5%;
+  margin-right: 0;
 }
 .allForm{
   margin : 5% 0;
@@ -100,7 +131,6 @@
 }
 .homeForm{
   z-index: 5;
-  /* margin-left: 60% ; */
 }
 .innerForm{
   background: linear-gradient(to bottom right, #48B43D 0%, #3E964E 100%) !important;
@@ -157,7 +187,11 @@
 }
 #socialIcons{
   margin: 0 4%;
-  background-color: #c9c9ca;
-  border-radius: 50%;
-  /* width: 20px; */
+  /* background-color: #c9c9ca; */
+  /* border-radius: 50%; */
+  /* width: 50px; */
 }
+
+/* i.fab {
+    border: 1px solid red;
+  } */

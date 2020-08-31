@@ -3,8 +3,6 @@ import logo from "../images/logo.jpg";
 import recentPosts from "../images/recentPosts.jpg";
 import copyrights from "../images/copyrights.jpg";
 import { Row, Col, Container } from "react-bootstrap";
-// import { far } from '@fortawesome/free-solid-svg-icons'
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function footer() {

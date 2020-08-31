@@ -26,7 +26,7 @@ class NavbarPage extends Component {
   render() {
     return (
       <Router>
-        <MDBNavbar  light expand="md">
+        <MDBNavbar className="allNavbar" light expand="md">
             <img src={logo} alt="logo" className="test"/>
           {/* <MDBNavbarBrand >
             <strong className="white-text">Navbar</strong>
@@ -38,7 +38,7 @@ class NavbarPage extends Component {
                 <MDBDropdown>
                   <MDBDropdownToggle nav>
                     <span className="mr-2" to="#!">
-                      Home
+                      HOME
                     </span>
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
@@ -58,7 +58,7 @@ class NavbarPage extends Component {
                 <MDBDropdown>
                   <MDBDropdownToggle nav >
                     <span className="mr-2" to="#!">
-                      Pages
+                      PAGES
                     </span>
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
@@ -77,7 +77,7 @@ class NavbarPage extends Component {
                 <MDBDropdown>
                   <MDBDropdownToggle nav>
                     <span className="mr-2" to="#!">
-                      Blog
+                      BLOG
                     </span>
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
@@ -95,7 +95,7 @@ class NavbarPage extends Component {
               <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav>
-                    <span className="mr-2">Shop</span>
+                    <span className="mr-2">SHOP</span>
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
                     <MDBDropdownItem href="#!">Action</MDBDropdownItem>
